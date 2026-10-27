@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171717">
+<meta name="description" content="Granny K's Corner — home is where the heart is. Browse our menu and order on WhatsApp.">
+<title>Granny K's Corner | Digital Menu</title>
+<style>
+:root{--gold:#ffb52e;--orange:#e85b35;--ink:#171717;--paper:#fff8ec;--muted:#c9c4ba}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--paper);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit}.wrap{width:min(100% - 32px,980px);margin:auto}
+.hero{min-height:84vh;display:grid;place-items:center;text-align:center;padding:54px 0;background:radial-gradient(ellipse at 10% 0%,#74321f 0,transparent 40%),radial-gradient(ellipse at 100% 20%,#6b480c 0,transparent 38%),linear-gradient(145deg,#101010,#242321 65%,#111)}
+.brand-logo{width:min(220px,58vw);aspect-ratio:1;object-fit:contain;border-radius:50%;display:block;margin:0 auto 22px;filter:drop-shadow(0 8px 24px #0005)}
+.eyebrow{text-transform:uppercase;letter-spacing:.2em;color:var(--gold);font-size:.8rem;font-weight:800}
+h1{font-size:clamp(2.6rem,9vw,5.7rem);line-height:.95;letter-spacing:-.05em;margin:12px 0}
+h1 span{color:var(--gold)}.tagline{font-size:clamp(1rem,3vw,1.25rem);color:#f5e7ce;max-width:580px;margin:20px auto 28px}
+.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}.btn{display:inline-block;padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:800;border:2px solid var(--gold);background:var(--gold);color:#171717}.btn.secondary{background:transparent;color:var(--paper)}
+.meta{display:flex;flex-wrap:wrap;justify-content:center;gap:9px 18px;color:var(--muted);font-size:.9rem;margin-top:28px}
+section{padding:58px 0}.section-title{text-align:center;margin:0 0 8px;font-size:clamp(1.8rem,5vw,3rem)}.section-title span{color:var(--gold)}.intro{text-align:center;color:var(--muted);max-width:650px;margin:0 auto 28px}
+.menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.menu-card{border:1px solid #ffffff20;border-radius:18px;padding:20px;background:#22211f}.menu-card h3{margin:0 0 12px;color:var(--gold);font-size:1.2rem}.item{display:flex;justify-content:space-between;gap:14px;border-bottom:1px dashed #ffffff26;padding:8px 0}.item:last-child{border:0}.price{font-weight:800;white-space:nowrap}.note{color:var(--muted);font-size:.9rem}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}.menu-image{width:100%;height:auto;display:block;border-radius:14px;border:1px solid #ffffff24;box-shadow:0 12px 36px #0005}.image-label{color:var(--muted);font-size:.9rem;margin:8px 2px 0}
+.contact{background:linear-gradient(130deg,#2b2115,#1b1b1b);border-top:1px solid #ffffff18;border-bottom:1px solid #ffffff18}.contact-card{text-align:center;border:1px solid #ffb52e66;border-radius:22px;padding:30px 20px;background:#171717}.contact-card h2{margin-top:0}.contact-list{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:20px 0}.contact-list a{padding:10px 14px;border:1px solid #ffffff2e;border-radius:999px;text-decoration:none}.small{color:var(--muted);font-size:.88rem}footer{text-align:center;padding:24px 0 34px;color:var(--muted);font-size:.85rem}
+@media(max-width:650px){.menu-grid,.gallery{grid-template-columns:1fr}.hero{min-height:75vh}.menu-card{padding:18px}}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap">
+  <img class="brand-logo" src="assets/granny-ks-corner-logo.png" alt="Granny K’s Corner logo">
+  <div class="eyebrow">Welcome to</div>
+  <h1>Granny K’s <span>Corner</span></h1>
+  <p class="tagline">Home is where the heart is — <em>Kumandi Ekhaya</em>.</p>
+  <div class="actions">
+   <a class="btn" href="#menu">Explore the menu ↓</a>
+   <a class="btn secondary" href="https://wa.me/27659626049?text=Hi%20Granny%20K%27s%20Corner%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+  </div>
+  <div class="meta"><span>📍 5 Ndlanzi Road, KwaMashu</span><span>🕒 Thu–Sun · 11 AM–6 PM</span><span>☎ +27 65 962 6049</span></div>
+ </div>
+</header>
+<main>
+<section id="menu">
+ <div class="wrap">
+  <h2 class="section-title">Our <span>Menu</span></h2>
+  <p class="intro">Good food, warm vibes, and a taste of home. Browse our menu below. Please confirm availability when ordering.</p>
+  <div class="menu-grid">
+   <article class="menu-card"><h3>Appetizers & Light Meals</h3>
+    <div class="item"><span>Chicken strips & fries</span><span class="price">R50</span></div>
+    <div class="item"><span>Nachos</span><span class="price">R115</span></div>
+    <div class="item"><span>Wors roll</span><span class="price">R30</span></div>
+    <div class="item"><span>Chicken livers & roti</span><span class="price">R40</span></div>
+    <div class="item"><span>Chicken wrap</span><span class="price">R50</span></div>
+    <div class="item"><span>Lamb chops & salad or garlic bread</span><span class="price">R80</span></div>
+   </article>
+   <article class="menu-card"><h3>Main Course</h3>
+    <div class="item"><span>Burger & fries</span><span class="price">R70</span></div>
+    <div class="item"><span>Steak roll</span><span class="price">R75</span></div>
+    <div class="item"><span>Mix bits</span><span class="price">R120</span></div>
+    <div class="item"><span>Pork chops & garlic bread</span><span class="price">R70</span></div>
+    <div class="item"><span>Mince sub roll</span><span class="price">R60</span></div>
+    <div class="item"><span>K’s-style platter (4)</span><span class="price">R250</span></div>
+   </article>
+   <article class="menu-card"><h3>Beverages</h3>
+    <div class="item"><span>Classic Margarita</span><span class="price">R65</span></div>
+    <div class="item"><span>Tequila Sunrise</span><span class="price">R65</span></div>
+    <div class="item"><span>Watermelon Refresher</span><span class="price">R50</span></div>
+    <div class="item"><span>Long Island</span><span class="price">R65</span></div>
+    <div class="item"><span>Coca-Cola</span><span class="price">R22</span></div>
+    <div class="item"><span>Liqui-Fruit can</span><span class="price">R15</span></div>
+   </article>
+   <article class="menu-card"><h3>Featured Favourites</h3>
+    <div class="item"><span>Chicken livers & roti</span><span class="price">R40</span></div>
+    <div class="item"><span>Chicken strips & fries</span><span class="price">R50</span></div>
+    <div class="item"><span>Steak roll</span><span class="price">R75</span></div>
+    <div class="item"><span>Chicken wrap</span><span class="price">R50</span></div>
+    <p class="note">Add cheese where offered: R7. Ask us about ingredients and daily availability.</p>
+   </article>
+  </div>
+  <p class="small" style="text-align:center;margin-top:20px">Menu and prices are shown from the supplied menu artwork. Please verify any updates before publishing.</p>
+ </div>
+</section>
+<section>
+ <div class="wrap">
+  <h2 class="section-title">The menu, <span>in pictures</span></h2>
+  <p class="intro">Keep scrolling to view the original menu designs in full.</p>
+  <div class="gallery">
+   <div><img class="menu-image" src="assets/menu-current-hours.jpeg" alt="Granny K's Corner menu featuring chicken livers and roti, chicken strips and fries, steak roll, and chicken wrap"><p class="image-label">Featured meals</p></div>
+   <div><img class="menu-image" src="assets/menu-full-food-drinks.jpeg" alt="Granny K's Corner full food and beverages menu"><p class="image-label">Food and beverages</p></div>
+  </div>
+ </div>
+</section>
+<section class="contact" id="contact">
+ <div class="wrap"><div class="contact-card">
+  <div class="eyebrow">Come through</div><h2>Find your way to <span style="color:var(--gold)">Granny K’s Corner</span></h2>
+  <p>📍 5 Ndlanzi Road, KwaMashu</p><p>🕒 Thursday–Sunday · 11:00 AM–6:00 PM</p><p>☎ +27 65 962 6049</p>
+  <div class="contact-list">
+   <a href="https://wa.me/27659626049?text=Hi%20Granny%20K%27s%20Corner%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp orders</a>
+   <a href="https://www.tiktok.com/@grannykscorner" target="_blank" rel="noopener">TikTok @grannykscorner</a>
+   <a href="https://www.google.com/maps/search/?api=1&query=5+Ndlanzi+Road%2C+KwaMashu%2C+South+Africa" target="_blank" rel="noopener">Open in Google Maps</a>
+  </div>
+  <p class="small">We look forward to welcoming you. Kumandi ekhaya!</p>
+ </div></div>
+</section>
+</main>
+<footer><div class="wrap">© Granny K’s Corner · Home is where the heart is.</div></footer>
+</body>
+</html>
